@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chow Xi`s Portfolio</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../mediaqueries.css">
+</head>
+
+<body>
+
+<header>
+    <nav id="desktop-nav">
+        <div>
+            <ul class="nav-links">
+                <li><a href="../index.html#hero">ABOUT</a></li>
+                <li><a href="../index.html#experience">EXPERIENCE</a></li>
+                <li><a href="../index.html#portfolio">PORTFOLIO</a></li>
+                <li><a href="../index.html#contact">CONTACT</a></li>
+         </ul>
+        </div>
+    </nav>
+        <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+             </div>
+         <div class="menu-links">
+            <li><a href="../index.html#hero" onclick="toggleMenu()">ABOUT</a></li>
+            <li><a href="../index.html#experience" onclick="toggleMenu()">ABOUT</a></li>
+            <li><a href="../index.html#portfolio" onclick="toggleMenu()">PORTFOLIO</a></li>
+            <li><a href="../index.html#contact" onclick="toggleMenu()">CONTACT</a></li>
+         </div>
+        </div>
+    </nav>
+</header>
+
+<!-- HERO IMAGE / VIDEO -->
+<section id="project-page">
+    <div class="gallery-wrapper">
+            <div class="gallery-container">
+                <button class="gallery-btn prev">&#10094;</button>
+                <!--videolink-->
+                <div class="gallery-content active">
+                    <iframe width="837" height="471"
+                        src="https://www.youtube.com/embed/Os6qeglgn4g" 
+                        frameborder="0" allowfullscreen></iframe>
+                </div>
+                <!--imagefile-->
+                <div class="gallery-content ">
+                    <img src="../Assets/ToonCarrier_Rig.jpg" alt="Project Preview">
+                </div>
+                <div class="gallery-content">
+                    <img src="../Assets/ToonCarrier_IMG_1.jpg" alt="Project Preview">
+                </div>
+                <div class="gallery-content">
+                    <img src="../Assets/ToonCarrier_IMG_2.jpg" alt="Project Preview">
+                </div>
+                <div class="gallery-content">
+                    <img src="../Assets/NavyCarrier_lookdev.jpg" alt="Project Preview">
+                </div>
+                <div class="gallery-content">
+                    <img src="../Assets/NavyCarrier_lookdev_2.jpg" alt="Project Preview">
+                </div>
+                <button class="gallery-btn next">&#10095;</button>
+            </div>
+        <!--dots-->
+        <div class="gallery-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECT INFORMATIONS -->
+<section id="project-info">
+    <div class="project-header">
+        <h2>Toon Carrier Rig</h2>
+    </div>
+    <div class="project-content">
+        <div class="project-main-info">
+            <div class="info-block">
+                <h3>Description</h3>
+                <p>Developed production-ready prop rig for my personal 3D animated short film "Soar Buddies", creating intuitive control systems to support animation, character interaction, and storytelling requirements.</p>
+            </div>
+            <div class="info-block">
+                 <h3>Responsibilities</h3>
+                     <p>
+                        Modeling , Texturing , Rigging , Animation
+                    </p>
+        </div>
+            <div class="info-block">
+                <h3>Software</h3><p>Maya , Rizom UV , Substance 3D Painter</p>
+            </div>
+        </div>
+
+        <div class="project-sidebar">
+            <div class="info-block">
+                <h3>Credits</h3>
+                <ul>
+                    <li>Concept : Chow Xi</li>
+                    <li>Model : Chow Xi</li>
+                    <li>Texture : Chow Xi</li>
+                    <li>Rigging : Chow Xi</li>
+                    <li>Animation : Chow Xi</li>
+                </ul>
+            </div>
+            <div class="info-block">
+                <h3>Year</h3><p>2025</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- RETURN TO PORTFOLIO PAGE -->
+<section id="back-button">
+    <a href="../index.html#portfolio" class="btn btn-color-1">Back to Portfolio</a>
+ </section>
+
+<script src="../script.js"></script>
+
+<footer>
+  Thank you for visiting!
+  <br>
+    Copyright © 2026 Chow Xi. All rights reserved.
+</footer>
+
+</body>
+</html>

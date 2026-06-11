@@ -1,0 +1,380 @@
+/*********************************
+    TABLET DEVICES
+*********************************/
+
+@media screen and (max-width: 1438px) {
+
+    /* NAVIGATION */
+
+    .nav-links {
+        gap: 2rem;
+        font-size: 1rem;
+    }
+
+    /* HERO */
+
+    #hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 8rem 8rem;
+    }
+
+    .video {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .bio {
+        max-width: 100%;
+        padding-left: 40px;
+        margin-top: 2rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .btn-container {
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    /* ABOUT */
+
+    #experience {
+        padding: 6rem 4rem;
+    }
+
+    /* PORTFOLIO */
+
+    #portfolio {
+        padding: 6rem 4rem;
+    }
+
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+
+    /* CONTACT */
+
+    #contact {
+        padding: 6rem 4rem;
+    }
+
+    .social-icons {
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 0;
+    }
+
+    /* PROJECT PAGE */
+
+    .gallery-container {
+        padding: 80px 40px;
+    }
+
+    .gallery-content {
+        max-width: 850px;
+    }
+
+    #project-info {
+        padding: 40px 60px;
+    }
+
+}
+
+
+/*********************************
+    SMALL TABLETS
+*********************************/
+
+@media screen and (max-width: 1160px) {
+
+
+    /* PORTFOLIO */
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* CONTACT */
+
+    .social-icons {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    /* PROJECT */
+
+    .gallery-btn {
+        width: 55px;
+        height: 65px;
+        font-size: 2rem;
+    }
+
+}
+
+
+/*********************************
+    MOBILE DEVICES
+*********************************/
+
+@media screen and (max-width: 768px) {
+
+    /* NAVIGATION */
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        height: 50px;
+
+        padding: 0 15px;
+    }
+
+    .hamburger-icon {
+        padding-left: 0;
+    }
+
+    /* TYPOGRAPHY */
+
+    h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    h5 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    /* HERO */
+
+    #hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 7rem 2rem;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .bio {
+        max-width: 100%;
+        margin-top: 2rem;
+        justify-content: center;
+    }
+
+    .btn-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    /* ABOUT */
+
+    #experience {
+        flex-direction: column;
+        padding: 4rem 2rem;
+        gap: 3rem;
+    }
+
+    .work,
+    .education {
+        width: 100%;
+    }
+
+    /* PORTFOLIO */
+
+    #portfolio {
+        padding: 4rem 2rem;
+    }
+
+    .filters {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .grid {
+        grid-template-columns:repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    /* CONTACT */
+
+    #contact {
+        padding: 4rem 2rem;
+    }
+
+    .contact-info {
+        padding-left: 0;
+    }
+
+    .social-icons {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-left: 0;
+    }
+
+    /* PROJECT PAGE */
+
+    .gallery-container {
+        padding: 70px 15px 40px;
+        gap: 10px;
+    }
+
+    .gallery-content {
+        max-width: 100%;
+    }
+
+    .gallery-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 1.5rem;
+    }
+
+    .gallery-dots {
+        bottom: 15px;
+        gap: 10px;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
+
+    #project-info {
+        padding: 30px 30px;
+    }
+
+    .project-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .project-sidebar {
+        border-left: none;
+        border-top: 2px solid #aaaaaa;
+
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+}
+
+
+/*********************************
+    SMALL PHONES
+*********************************/
+
+@media screen and (max-width: 480px) {
+
+    /* TYPOGRAPHY */
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    h5 {
+        font-size: 0.95rem;
+    }
+
+    /* HERO */
+
+    #hero {
+        padding: 6rem 1rem;
+    }
+
+    /* SECTIONS */
+
+    #experience,
+    #portfolio,
+    #contact {
+        padding: 3rem 1rem;
+    }
+
+     .grid {
+        grid-template-columns:repeat(1, 1fr);
+        gap: 2rem;
+    }
+
+    /* BUTTONS */
+
+    .btn {
+        max-width: 100%;
+        font-size: 1rem;
+    }
+
+    /* CONTACT */
+
+    .social-icons {
+        gap: 15px;
+    }
+
+    /* PROJECT PAGE */
+
+    .gallery-container {
+        padding: 60px 10px 30px;
+        gap: 30px;
+    }
+
+    .gallery-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 1.2rem;
+    }
+
+    .gallery-dots {
+        bottom: 10px;
+    }
+
+    .dot {
+        width: 8px;
+        height: 8px;
+    }
+
+    #project-info {
+        padding: 30px 30px;
+    }
+
+    .info-block h3 {
+        font-size: 1rem;
+    }
+
+    .info-block p,
+    .info-block li {
+        font-size: 0.95rem;
+    }
+
+}
